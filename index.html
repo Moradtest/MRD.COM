@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b15">
+  <meta name="description" content="MRD — Portfolio personal de Morad. Tecnología, fotografía, viajes y proyectos.">
+  <title>MRD | Ideas, viajes y tecnología</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header">
+    <nav class="nav wrap" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="MRD, inicio">M<span>R</span>D<span class="dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre-mi">Sobre mí</a><a href="#galeria">Fotografía</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> BIENVENIDO A MI ESPACIO DIGITAL</div>
+        <h1>Hola, soy <span class="gradient">Morad.</span><br>Creo. Exploro.<br><span class="muted">Aprendo.</span></h1>
+        <p>Me apasionan la tecnología, los viajes y la fotografía. Este es mi rincón para compartir ideas, experiencias y proyectos que voy construyendo por el camino.</p>
+        <div class="actions"><a class="btn primary" href="#galeria">Explorar fotografías <span aria-hidden="true">↗</span></a><a class="btn ghost" href="#proyectos">Ver proyectos →</a></div>
+        <div class="hero-tags"><span>✦ Tecnología</span><span>✦ Viajes</span><span>✦ Fotografía</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración abstracta MRD"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-monogram">MRD<span>.</span></div><div class="float-chip chip-top">✦ CREATE</div><div class="float-chip chip-bottom">EXPLORE ↗</div></div>
+    </section>
+    <section class="section about-section" id="sobre-mi"><div class="wrap two-col"><div><div class="kicker">01 / MI HISTORIA</div><h2>La curiosidad es<br><span class="gradient">mi punto de partida.</span></h2></div><div class="about-copy"><p>Me gusta descubrir cómo funcionan las cosas y encontrar maneras de mejorarlas. A veces eso significa escribir código; otras, coger la cámara y salir a conocer un lugar nuevo.</p><p>No busco aparentar que lo sé todo. Prefiero seguir aprendiendo, experimentar y convertir pequeñas ideas en algo real.</p><div class="mini-stats"><div><strong>∞</strong><small>Ideas por explorar</small></div><div><strong>MRD</strong><small>Mi sello personal</small></div></div></div></div></section>
+    <section class="section" id="galeria"><div class="wrap"><div class="section-head"><div><div class="kicker">02 / A TRAVÉS DE MI LENTE</div><h2>Momentos que <span class="gradient">merecen quedarse.</span></h2><p>Una colección de lugares, paisajes y recuerdos. Sustituye estas tarjetas por tus propias fotografías.</p></div><span class="outline-label">PHOTO JOURNAL / MRD</span></div>
+      <div class="gallery">
+        <figure class="photo photo-wide"><img src="assets/images/pirineos.jpg" alt="Fotografía personal de los Pirineos" loading="lazy"><div class="photo-fallback" aria-hidden="true"><span>🏔️</span><small>Tu fotografía aquí</small></div><figcaption><span>01 / NATURALEZA</span><strong>Pirineos</strong></figcaption></figure>
+        <figure class="photo"><img src="assets/images/portugal.jpg" alt="Fotografía personal de Portugal" loading="lazy"><div class="photo-fallback" aria-hidden="true"><span>🌊</span><small>Tu fotografía aquí</small></div><figcaption><span>02 / VIAJES</span><strong>Portugal</strong></figcaption></figure>
+        <figure class="photo"><img src="assets/images/viaje-1.jpg" alt="Fotografía personal de un viaje" loading="lazy"><div class="photo-fallback" aria-hidden="true"><span>📷</span><small>Tu fotografía aquí</small></div><figcaption><span>03 / RECUERDOS</span><strong>En ruta</strong></figcaption></figure>
+        <figure class="photo photo-wide"><img src="assets/images/viaje-2.jpg" alt="Otra fotografía personal de viaje" loading="lazy"><div class="photo-fallback" aria-hidden="true"><span>🌅</span><small>Tu fotografía aquí</small></div><figcaption><span>04 / MOMENTOS</span><strong>Otro horizonte</strong></figcaption></figure>
+      </div><p class="gallery-note">💡 Añade tus fotos a <code>assets/images/</code> con los nombres indicados en el README.</p>
+    </div></section>
+    <section class="section projects-section" id="proyectos"><div class="wrap"><div class="kicker">03 / LO QUE CONSTRUYO</div><h2>Ideas convertidas <span class="gradient">en proyectos.</span></h2><div class="projects"><article class="project-card"><div class="project-icon">⌘</div><div class="project-meta">EXTENSIÓN DE NAVEGADOR · EN DESARROLLO</div><h3>MRD AutoScripts</h3><p>Una extensión para reunir herramientas y scripts en un solo lugar, con controles sencillos y ejecución automática según la web.</p><div class="pills"><span>JavaScript</span><span>Browser Extensions</span></div></article><article class="project-card"><div class="project-icon">◈</div><div class="project-meta">WEB PERSONAL · VERSIÓN 1.0</div><h3>MRD Portfolio</h3><p>Este espacio digital donde comparto mis fotografías, mis intereses y lo que voy creando.</p><div class="pills"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article></div></div></section>
+    <section class="section contact-section" id="contacto"><div class="wrap contact-box"><div class="kicker">04 / CONECTEMOS</div><h2>Las mejores ideas<br><span class="gradient">empiezan con curiosidad.</span></h2><p>¿Quieres conocer mis proyectos o seguir lo que voy creando?</p><a class="btn primary" href="https://github.com/Moradtest" target="_blank" rel="noopener noreferrer">Visitar mi GitHub ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span class="logo">M<span>R</span>D<span class="dot">.</span></span><small>Diseñado con curiosidad · <span id="year"></span></small><a href="#inicio">Volver arriba ↑</a></div></footer>
+</body>
+</html>
